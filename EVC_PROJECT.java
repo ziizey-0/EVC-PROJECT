@@ -3,6 +3,9 @@ import java.util.ArrayList;
 
 public class EVC_PROJECT {
     public static void main(String[] args) {
+        System.out.println("Name: Abdiaziz Yonis Muhidin");
+            System.out.println("Class:CNS232");
+            System.out.println("ID:C6230077");
         Scanner input = new Scanner(System.in);
         String XOGTA = "*777#";
         String EVC_Password = "9009";
@@ -53,7 +56,8 @@ public class EVC_PROJECT {
                             break;
 
                         // Cases 2 ...
-                        case 2:  // Kaarka hadalka
+                        case 2: 
+                            // Kaarka hadalka
                             boolean inCase2 = true;
                             while (inCase2) {
                                 System.out.println("\nKaarka hadalka:");
@@ -73,7 +77,8 @@ public class EVC_PROJECT {
                                         inCase2 = false;  // back
                                         break;
 
-                                    case 1: // Ku Shubo Airtime
+                                    case 1: 
+                                        // Ku Shubo Airtime
                                         System.out.print("Geli lacagta aad rabto inaad ku shubato: ");
                                         int amount = input.nextInt();
                                         input.nextLine();
@@ -86,7 +91,8 @@ public class EVC_PROJECT {
                                         }
                                         break;
 
-                                    case 2: // Ugu Shub Airtime
+                                    case 2: 
+                                        // Ugu Shub Airtime
                                         System.out.print("Geli numberka aad ugu shubayso airtime: ");
                                         String number = input.nextLine();
                                         System.out.print("Geli lacagta aad rabto inaad ugu shubto: ");
@@ -101,7 +107,9 @@ public class EVC_PROJECT {
                                         }
                                         break;
 
-                                    case 3: // MIFI Packages
+                                    case 3: 
+                                        
+                                        // MIFI Packages
                                         System.out.println("Dooro MIFI Package:");
                                         System.out.println("1. 1GB - $10");
                                         System.out.println("2. 5GB - $25");
@@ -117,7 +125,8 @@ public class EVC_PROJECT {
 
                                         switch (mifiChoice) {
                                             case 0:
-                                                break; // back to case 2 menu
+                                                break;
+                                                // back to case 2 menu
                                             case 1:
                                                 mifiCost = 10;
                                                 mifiPackage = "1GB";
@@ -145,7 +154,8 @@ public class EVC_PROJECT {
                                         }
                                         break;
 
-                                    case 4: // Ku shubo Internet
+                                    case 4: 
+                                        // Ku shubo Internet
                                         System.out.println("Dooro internet package:");
                                         System.out.println("1. 500MB - $5");
                                         System.out.println("2. 1GB - $10");
@@ -161,7 +171,8 @@ public class EVC_PROJECT {
 
                                         switch (internetChoice) {
                                             case 0:
-                                                break; // back to case 2 menu
+                                                break; 
+                                                // back to case 2 menu
                                             case 1:
                                                 internetCost = 5;
                                                 internetPackage = "500MB";
@@ -189,7 +200,8 @@ public class EVC_PROJECT {
                                         }
                                         break;
 
-                                    case 5: // Ugu shub qof kale (MMT)
+                                    case 5:
+                                        // Ugu shub qof kale (MMT)
                                         System.out.print("Geli numberka qofka aad lacagta ugu shubayso (MMT): ");
                                         String mmtNumber = input.nextLine();
                                         System.out.print("Geli qadarka lacagta aad rabto inaad u dirto: ");
@@ -210,7 +222,8 @@ public class EVC_PROJECT {
                             }
                             break;
 
-                        case 3:  // Bixi Biil
+                        case 3:  
+                            // Bixi Biil
                             boolean inCase3 = true;
                             while (inCase3) {
                                 System.out.println("\nBixi Biil - Pay Your Bills");
@@ -224,7 +237,8 @@ public class EVC_PROJECT {
 
                                 switch (bixChoice) {
                                     case 0:
-                                        inCase3 = false;  // back to main menu
+                                        inCase3 = false; 
+                                        // back to main menu
                                         break;
 
                                     case 1:
@@ -260,7 +274,8 @@ public class EVC_PROJECT {
                             }
                             break;
 
-                        case 4:  // U wareeji EVCPlus
+                        case 4:  
+                            // U wareeji EVCPlus
                             System.out.println("\nU wareeji EVCPlus - Transfer Funds");
                             System.out.print("Geli numberka aad lacag u direyso (0 to back): ");
                             String receiverNumber = input.nextLine();
@@ -294,7 +309,8 @@ public class EVC_PROJECT {
                             }
                             break;
 
-                        case 5:  // Warbixin Kooban submenu
+                        case 5: 
+                            // Warbixin Kooban submenu
                             boolean inCase5 = true;
                             while (inCase5) {
                                 System.out.println("\nWarbixin Kooban - Mini Statement");
